@@ -29,6 +29,7 @@ video {
   <body>
     <div id='app'>
       <div>
+	
 	<p>
 	  I was thinking about YouTube, where a lot of channels started off as people
 	  filming from their parents houses or dorm rooms and have become full-fledged
@@ -44,17 +45,9 @@ video {
 	  see things start to develop: gestures, improvements in lighting and framing. Title
 	  cards get more compressed and perfected. It’s cool to see people mastering an art.
 	</p>
-	<p id='iosWarning' style='display:none;'>
-	  Note that this doesn’t work on Apple Phones right now - try it out on a computer
-	  or Android. If you know how to make huge H264 video work on iOS, here’s
-	  <a href='https://github.com/tmcw/channel-arc'>the code :)</a>
+	<p>
+	  <a style='font-size: 150%;font-style:italic;' href="mobile.html">Use the mobile version if you’re on a phone!</a>
 	</p>
-	<script>
-if (/iPad|iPhone|iPod/.test(navigator.platform || "")) {
-  iosWarning.style = '';
-
-}
-	</script>
       </div>
       <section>
 	<video autoplay muted loop controls><source src="output-total.mp4" type="video/mp4"></video>
